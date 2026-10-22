@@ -1,0 +1,58 @@
+node_modules
+dist
+out
+.DS_Store
+.eslintcache
+*.log*
+
+# Dependencias e compilacao
+node_modules/
+out/
+build/
+dist/
+coverage/
+.cache/
+.eslintcache
+*.tsbuildinfo
+
+# Ambiente e credenciais
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.local.json
+
+# Dados operacionais
+.reference/
+data/
+Data/
+backups/
+Backup/
+downloads/
+exports/
+reports/
+screenshots/
+test-results/
+playwright-report/
+*.sqlite
+*.sqlite3
+*.db
+*.db-wal
+*.db-shm
+*.pdf
+*.zip
+*.csv
+*.xlsx
+
+# Logs e temporarios
+*.log
+*.bak
+*.tmp
+*.temp
+
+# Configuracoes locais de agentes
+.codex/
+.agents/
